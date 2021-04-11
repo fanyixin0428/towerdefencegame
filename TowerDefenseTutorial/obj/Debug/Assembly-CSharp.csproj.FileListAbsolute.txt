@@ -256,3 +256,12 @@ C:\project\githubtest\githubtest\TowerDefenseTutorial\obj\Debug\Assembly-CSharp.
 C:\project\githubtest\githubtest\TowerDefenseTutorial\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\project\githubtest\githubtest\TowerDefenseTutorial\obj\Debug\Assembly-CSharp.dll
 C:\project\githubtest\githubtest\TowerDefenseTutorial\obj\Debug\Assembly-CSharp.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\Unity.Timeline.Editor.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\Unity.VSCode.Editor.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\UnityEngine.UI.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\Unity.Timeline.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\Unity.Rider.Editor.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\Unity.TextMeshPro.pdb
+C:\project\githubtest\githubtest\TowerDefenseTutorial\Temp\bin\Debug\UnityEditor.UI.pdb
