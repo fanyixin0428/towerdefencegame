@@ -20,6 +20,7 @@ public class Turret : MonoBehaviour
     public bool useLaser = false;
 
     public int damageOverTime = 30;
+    public float slowPercent = .5f;
 
     public LineRenderer lineRenderer;
     public ParticleSystem impactEffect;
@@ -135,7 +136,7 @@ public class Turret : MonoBehaviour
 
 
         targetEnemy.TakeDamage(damageOverTime * Time.deltaTime);
-
+        targetEnemy.Slow(slowPercent);
 
 
         if (!lineRenderer.enabled)
