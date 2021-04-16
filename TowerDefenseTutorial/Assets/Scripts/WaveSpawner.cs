@@ -33,6 +33,8 @@ public class WaveSpawner : MonoBehaviour
     {
         waveIndex++;
 
+        PlayerStats.Rounds++;
+
         for (int i = 0; i < waveIndex; i++)
         {
             SpwanEnemy();
