@@ -4857,7 +4857,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.10849059, g: 1, b: 0.37142876, a: 1}
   m_Intensity: 1.5
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -5268,8 +5268,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 3
-      minScalar: 2
+      scalar: 4
+      minScalar: 3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -9894,12 +9894,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d36e6b530df2a44aa82e6c82175ec9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 20
+  range: 30
   bulletPrefab: {fileID: 0}
   fireRate: 1
   useLaser: 1
-  damageOverTime: 30
-  slowAmount: 0.5
+  damageOverTime: 40
+  slowAmount: 0.8
   lineRenderer: {fileID: 2011747087531952923}
   impactEffect: {fileID: 4179326345349148665}
   impactLight: {fileID: 4425008859493822901}
@@ -9950,7 +9950,7 @@ LineRenderer:
   - {x: 0, y: 3, z: 5}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.3
+    widthMultiplier: 0.4
     widthCurve:
       serializedVersion: 2
       m_Curve:

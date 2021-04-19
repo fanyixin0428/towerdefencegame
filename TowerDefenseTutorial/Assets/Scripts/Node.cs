@@ -15,7 +15,7 @@ public class Node : MonoBehaviour
 
     private Renderer rend;
     private Color startColor;
-    
+
 
     BuildManager buildManager;
 
@@ -36,7 +36,7 @@ public class Node : MonoBehaviour
     {
         if (EventSystem.current.IsPointerOverGameObject())
             return;
-                    
+
         if (turret != null)
         {
 
@@ -79,10 +79,6 @@ public class Node : MonoBehaviour
     public void UpgradeTurret()
     {
 
-      //  if (isUpgraded == true)
-    //        return;
-
-
         if (PlayerStats.Money < turretBlueprint.upgradeCost)
 
         {
@@ -94,10 +90,10 @@ public class Node : MonoBehaviour
 
         //Get rid of the old turret
         Destroy(turret);
-        
+
         //Building a new one
         GameObject _turret = (GameObject)Instantiate(turretBlueprint.upgradePrefab, GetBuildPosition(), Quaternion.identity);
-        turret = _turret;        
+        turret = _turret;
 
         GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
 
@@ -111,7 +107,24 @@ public class Node : MonoBehaviour
     }
 
 
+    public void SellTurret()
+    {
+        if (!isUpgraded)
+        {
+            PlayerStats.Money += turretBlueprint.GetCostAmount();
+        }
+        else
+        {
+            PlayerStats.Money += turretBlueprint.GetCostAmountUpgraded();
+        }
 
+        GameObject effect = (GameObject)Instantiate(buildManager.sellEffect, GetBuildPosition(), Quaternion.identity);
+        Destroy(effect, 5f);
+
+        Destroy(turret);
+        turretBlueprint = null;
+        isUpgraded = false;
+    }
     
 
 
