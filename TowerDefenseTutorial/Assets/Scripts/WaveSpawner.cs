@@ -33,7 +33,12 @@ public class WaveSpawner : MonoBehaviour
             return;
         }
 
+        if (waveIndex == waves.Length)
+        {
+            gameManager.WinLevel();
+            this.enabled = false;
 
+        }
 
         if (countdown <= 0f)
         {
@@ -68,12 +73,7 @@ public class WaveSpawner : MonoBehaviour
 
         //numOfEnemies = waveNumber * waveNumber + 1;
 
-        if (waveIndex == waves.Length)
-        {
-            gameManager.WinLevel();
-            this.enabled=false;
 
-        }
 
     }
 

@@ -1572,7 +1572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.45002, y: 0}
+  m_AnchoredPosition: {x: -0.44921875, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &126964253
@@ -2983,6 +2983,7 @@ GameObject:
   - component: {fileID: 251420175}
   - component: {fileID: 251420174}
   - component: {fileID: 251420173}
+  - component: {fileID: 251420176}
   m_Layer: 5
   m_Name: RoundsText
   m_TagString: Untagged
@@ -3066,6 +3067,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251420171}
   m_CullTransparentMesh: 0
+--- !u!114 &251420176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251420171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0199479e86ad53349a7d12c4e86fb5d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundsText: {fileID: 251420174}
 --- !u!1001 &259434150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3438,6 +3452,7 @@ GameObject:
   - component: {fileID: 263384432}
   - component: {fileID: 263384431}
   - component: {fileID: 263384430}
+  - component: {fileID: 263384433}
   m_Layer: 5
   m_Name: RoundsText
   m_TagString: Untagged
@@ -3521,6 +3536,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263384428}
   m_CullTransparentMesh: 0
+--- !u!114 &263384433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263384428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0199479e86ad53349a7d12c4e86fb5d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundsText: {fileID: 263384431}
 --- !u!4 &272189771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4200781266561680431, guid: 1440f72dbca56e64d9fb2fd3013e6de1,
@@ -6788,7 +6816,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1811625189}
         m_MethodName: Menu
         m_Mode: 1
         m_Arguments:
@@ -22666,13 +22694,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1811625187}
   - component: {fileID: 1811625188}
+  - component: {fileID: 1811625189}
   m_Layer: 5
   m_Name: CompleteLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1811625187
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22716,6 +22745,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1811625189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811625186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5bf6097b4c8914b8d2f9c5e0ccafa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSceneName: MainMenu
+  nextLevel: Level02
+  levelToUnlock: 2
+  sceneFader: {fileID: 184931789}
 --- !u!1 &1822065823
 GameObject:
   m_ObjectHideFlags: 0
@@ -24520,9 +24565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 1970401350}
-  nextLevel: Level02
-  levelToUnlock: 2
-  sceneFader: {fileID: 184931789}
+  completeLevlUI: {fileID: 1811625186}
 --- !u!114 &1963092688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24687,7 +24730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af21c7185243f1149a30c8177422ca63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roundsText: {fileID: 263384431}
   mainMenu: MainMenu
   sceneFader: {fileID: 184931789}
 --- !u!95 &1970401353
@@ -26348,7 +26390,7 @@ GameObject:
   - component: {fileID: 2103024893}
   - component: {fileID: 2103024892}
   m_Layer: 5
-  m_Name: Retry
+  m_Name: Continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26429,8 +26471,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Retry
+      - m_Target: {fileID: 1811625189}
+        m_MethodName: Continue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
