@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T05:53:43.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="s4giBRoV5-LFsuUDoko8" version="16.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-23T05:54:37.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kPy-xUEcs3H42UwC4obO" version="16.6.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,12 +227,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C46R9zqwdSR16HIVpP5T" name="第 2 页">
-    <mxGraphModel dx="981" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dzqWkF5tvaRkZpjH0iCF-0" />
         <mxCell id="dzqWkF5tvaRkZpjH0iCF-1" parent="dzqWkF5tvaRkZpjH0iCF-0" />
         <mxCell id="ZOTbtlO7D35jLE1dfuMF-0" value="消除" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=15;" vertex="1" parent="dzqWkF5tvaRkZpjH0iCF-1">
-          <mxGeometry x="254" y="550" width="96" height="100" as="geometry">
+          <mxGeometry x="390" y="550" width="96" height="100" as="geometry">
             <mxRectangle x="680" y="680" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -246,7 +246,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZOTbtlO7D35jLE1dfuMF-6" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;冒险&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dzqWkF5tvaRkZpjH0iCF-1">
-          <mxGeometry x="80" y="545" width="120" height="80" as="geometry" />
+          <mxGeometry x="170" y="545" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOTbtlO7D35jLE1dfuMF-7" value="收获" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=15;" vertex="1" parent="dzqWkF5tvaRkZpjH0iCF-1">
+          <mxGeometry x="540" y="550" width="96" height="100" as="geometry">
+            <mxRectangle x="680" y="680" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZOTbtlO7D35jLE1dfuMF-8" value="+材料&#xa;-时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZOTbtlO7D35jLE1dfuMF-7">
+          <mxGeometry y="26" width="96" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOTbtlO7D35jLE1dfuMF-9" value="生产" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=15;" vertex="1" parent="dzqWkF5tvaRkZpjH0iCF-1">
+          <mxGeometry x="330" y="410" width="96" height="100" as="geometry">
+            <mxRectangle x="680" y="680" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZOTbtlO7D35jLE1dfuMF-10" value="+材料&#xa;-时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZOTbtlO7D35jLE1dfuMF-9">
+          <mxGeometry y="26" width="96" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
