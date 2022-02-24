@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T09:20:00.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="V0iorUoBae1V6zkMqChQ" version="16.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-24T09:20:40.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="a2qOYIFdeWwZw33mrSkL" version="16.6.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="816" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NKL-zF2vtsDxCGqW6Zeg" name="第 3 页">
-    <mxGraphModel dx="1364" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2330" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="bUHV0QndHp-uKdw3XMVW-0" />
         <mxCell id="bUHV0QndHp-uKdw3XMVW-1" parent="bUHV0QndHp-uKdw3XMVW-0" />
@@ -235,7 +235,7 @@
           <mxGeometry x="430" y="440" width="180" height="145" as="geometry" />
         </mxCell>
         <mxCell id="PfWQfookg9tPpMiVK1kJ-0" value="生产" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="bUHV0QndHp-uKdw3XMVW-1" vertex="1">
-          <mxGeometry x="290" y="425" width="100" height="215" as="geometry" />
+          <mxGeometry x="290" y="440" width="100" height="215" as="geometry" />
         </mxCell>
         <mxCell id="PfWQfookg9tPpMiVK1kJ-1" value="普通采集&lt;br style=&quot;font-size: 16px;&quot;&gt;稀有采集品&lt;br style=&quot;font-size: 16px;&quot;&gt;珍稀采集品" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="bUHV0QndHp-uKdw3XMVW-1" vertex="1">
           <mxGeometry x="140" y="562.5" width="120" height="80" as="geometry" />
@@ -244,10 +244,10 @@
           <mxGeometry x="140" y="460" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PfWQfookg9tPpMiVK1kJ-3" value="农作物" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" parent="bUHV0QndHp-uKdw3XMVW-1" vertex="1">
-          <mxGeometry x="140" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="140" y="380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PfWQfookg9tPpMiVK1kJ-4" value="IDLE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="bUHV0QndHp-uKdw3XMVW-1" vertex="1">
-          <mxGeometry x="-140" y="370" width="90" height="100" as="geometry" />
+          <mxGeometry x="-140" y="380" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PfWQfookg9tPpMiVK1kJ-5" value="体力" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" parent="bUHV0QndHp-uKdw3XMVW-1" vertex="1">
           <mxGeometry x="-155" y="560" width="120" height="80" as="geometry" />
@@ -258,9 +258,9 @@
             <mxPoint x="-120" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PfWQfookg9tPpMiVK1kJ-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="bUHV0QndHp-uKdw3XMVW-1" source="PfWQfookg9tPpMiVK1kJ-4" target="PfWQfookg9tPpMiVK1kJ-3" edge="1">
+        <mxCell id="PfWQfookg9tPpMiVK1kJ-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bUHV0QndHp-uKdw3XMVW-1" target="PfWQfookg9tPpMiVK1kJ-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-150" y="520" as="sourcePoint" />
+            <mxPoint x="-50" y="420" as="sourcePoint" />
             <mxPoint x="-60" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -269,7 +269,7 @@
             <mxPoint x="30" y="460" as="sourcePoint" />
             <mxPoint x="310" y="420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340" y="400" />
+              <mxPoint x="340" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
