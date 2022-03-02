@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T08:04:04.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="u2-Vyc_SvfAzKtK9oI1o" version="16.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-02T08:25:26.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="bV08Yj1F-wofI6aujD4O" version="16.6.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="648" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -740,77 +740,65 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bSihAcS3OtB3RDBcNEmW" name="第 4 页">
-    <mxGraphModel dx="522" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kzFovidOQctGVJ-kFDqo-0" />
         <mxCell id="kzFovidOQctGVJ-kFDqo-1" parent="kzFovidOQctGVJ-kFDqo-0" />
+        <mxCell id="kzFovidOQctGVJ-kFDqo-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-2" target="kzFovidOQctGVJ-kFDqo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kzFovidOQctGVJ-kFDqo-2" value="生成货箱物品" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="210" y="92.5" width="90" height="47.5" as="geometry" />
+          <mxGeometry x="310" y="60" width="90" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-3" value="确认货箱数量&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="210" y="160" width="90" height="60" as="geometry" />
+        <mxCell id="kzFovidOQctGVJ-kFDqo-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-3" target="kzFovidOQctGVJ-kFDqo-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="90" y="152.5" width="70" height="35" as="geometry" />
+        <mxCell id="kzFovidOQctGVJ-kFDqo-3" value="计算货箱总数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="310" y="130" width="90" height="63.75" as="geometry" />
         </mxCell>
         <mxCell id="kzFovidOQctGVJ-kFDqo-5" value="确认可用物品" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="210" y="230" width="90" height="60" as="geometry" />
+          <mxGeometry x="430" y="130" width="90" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-11" value="在可用物品中，选择每种类型物品各选择1个匹配货箱" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="210" y="300" width="90" height="60" as="geometry" />
+        <mxCell id="kzFovidOQctGVJ-kFDqo-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-11" target="kzFovidOQctGVJ-kFDqo-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-13" value="未匹货箱物在剩余可用物品中随机选择" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="210" y="370" width="90" height="47.5" as="geometry" />
+        <mxCell id="kzFovidOQctGVJ-kFDqo-11" value="每种类型物品各选择1个" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="550" y="130" width="90" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="kzFovidOQctGVJ-kFDqo-13" value="根据剩余货箱数量随机物品" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="670" y="130" width="90" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="kzFovidOQctGVJ-kFDqo-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-14" target="kzFovidOQctGVJ-kFDqo-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kzFovidOQctGVJ-kFDqo-14" value="确认每个货箱物品的数量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="210" y="430" width="90" height="57.5" as="geometry" />
+          <mxGeometry x="310" y="240" width="90" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="kzFovidOQctGVJ-kFDqo-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-16" target="kzFovidOQctGVJ-kFDqo-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kzFovidOQctGVJ-kFDqo-16" value="确认每个货箱装填的奖励" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="210" y="500" width="90" height="57.5" as="geometry" />
+          <mxGeometry x="430" y="240" width="90" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-18" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
-          <mxGeometry x="210" y="570" width="90" height="60" as="geometry" />
+        <mxCell id="kzFovidOQctGVJ-kFDqo-30" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="670" y="246.88" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-2" target="kzFovidOQctGVJ-kFDqo-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="380" as="sourcePoint" />
-            <mxPoint x="330" y="330" as="targetPoint" />
+        <mxCell id="kzFovidOQctGVJ-kFDqo-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-36" target="kzFovidOQctGVJ-kFDqo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzFovidOQctGVJ-kFDqo-36" value="货箱随机分配到每个栏位和备选栏" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="550" y="240" width="90" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="kzFovidOQctGVJ-kFDqo-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-5" target="kzFovidOQctGVJ-kFDqo-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="171.875" as="sourcePoint" />
+            <mxPoint x="440" y="171.875" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-3" target="kzFovidOQctGVJ-kFDqo-5">
+        <mxCell id="kzFovidOQctGVJ-kFDqo-46" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.444;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-13" target="kzFovidOQctGVJ-kFDqo-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="264.9999999999999" y="150" as="sourcePoint" />
-            <mxPoint x="264.9999999999999" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-5" target="kzFovidOQctGVJ-kFDqo-11">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="265" y="230.00000000000006" as="sourcePoint" />
-            <mxPoint x="265" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-11" target="kzFovidOQctGVJ-kFDqo-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="265" y="300" as="sourcePoint" />
-            <mxPoint x="265" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-13" target="kzFovidOQctGVJ-kFDqo-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="265" y="370" as="sourcePoint" />
-            <mxPoint x="265" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-14" target="kzFovidOQctGVJ-kFDqo-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="264.9999999999999" y="427.5000000000001" as="sourcePoint" />
-            <mxPoint x="264.9999999999999" y="440.0000000000001" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kzFovidOQctGVJ-kFDqo-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-16" target="kzFovidOQctGVJ-kFDqo-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="255" y="560" as="sourcePoint" />
-            <mxPoint x="264.9999999999999" y="510.0000000000001" as="targetPoint" />
+            <mxPoint x="550" y="140" as="sourcePoint" />
+            <mxPoint x="475" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
