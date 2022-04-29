@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T14:48:56.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6FgwYiV73hilOfnfNIAM" version="17.4.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-29T04:12:37.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ZrlVURL8tlHJ9F0OtvyA" version="17.4.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -740,7 +740,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bSihAcS3OtB3RDBcNEmW" name="第 4 页">
-    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="646" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kzFovidOQctGVJ-kFDqo-0" />
         <mxCell id="kzFovidOQctGVJ-kFDqo-1" parent="kzFovidOQctGVJ-kFDqo-0" />
@@ -751,7 +751,7 @@
           <mxGeometry x="307.5" y="127.88" width="90" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="kzFovidOQctGVJ-kFDqo-30" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
-          <mxGeometry x="780" y="222.08" width="90" height="50" as="geometry" />
+          <mxGeometry x="770" y="222.08" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kzFovidOQctGVJ-kFDqo-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-13" target="kzFovidOQctGVJ-kFDqo-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -775,7 +775,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-7" value="从随机池不放回抽取&lt;b&gt;必选物品&lt;/b&gt;（如有）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-7" value="从随机池不放回抽取该等级&lt;b&gt;新物品&lt;/b&gt;（如有）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
           <mxGeometry x="650" y="113.85999999999999" width="90" height="73.23" as="geometry" />
         </mxCell>
         <mxCell id="dfMtS8oU940L3tE6Py9R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-10" target="dfMtS8oU940L3tE6Py9R-12">
