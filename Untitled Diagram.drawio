@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T04:12:37.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ZrlVURL8tlHJ9F0OtvyA" version="17.4.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-17T13:28:11.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="jiQIH1CBOztuZDdRm3wb" version="18.0.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -740,11 +740,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bSihAcS3OtB3RDBcNEmW" name="第 4 页">
-    <mxGraphModel dx="646" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kzFovidOQctGVJ-kFDqo-0" />
         <mxCell id="kzFovidOQctGVJ-kFDqo-1" parent="kzFovidOQctGVJ-kFDqo-0" />
-        <mxCell id="dfMtS8oU940L3tE6Py9R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-2" target="dfMtS8oU940L3tE6Py9R-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="kzFovidOQctGVJ-kFDqo-2" target="dfMtS8oU940L3tE6Py9R-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kzFovidOQctGVJ-kFDqo-2" value="货箱物品生成" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
@@ -756,50 +756,91 @@
         <mxCell id="kzFovidOQctGVJ-kFDqo-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-13" target="kzFovidOQctGVJ-kFDqo-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-1" target="dfMtS8oU940L3tE6Py9R-6">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-1" target="dfMtS8oU940L3tE6Py9R-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-1" value="计算&lt;b&gt;可选取&lt;/b&gt;的物品种类数及每种类物品对应的数量，形成随机池。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-1" value="计算&lt;b&gt;可选取&lt;/b&gt;的物品种类数及每种类物品对应的数量，形成随机池。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
           <mxGeometry x="420" y="116.16" width="100" height="70.93" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-6" target="dfMtS8oU940L3tE6Py9R-7">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-6" target="dfMtS8oU940L3tE6Py9R-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-6" value="&lt;span&gt;计算龙单需求物品种类数&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-6" value="&lt;span&gt;计算龙单需求物品种类数&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
           <mxGeometry x="540" y="115.09000000000002" width="90" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-7" target="dfMtS8oU940L3tE6Py9R-10">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-7" target="dfMtS8oU940L3tE6Py9R-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="695" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-7" value="从随机池不放回抽取该等级&lt;b&gt;新物品&lt;/b&gt;（如有）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-7" value="从随机池不放回抽取该等级&lt;b&gt;新物品&lt;/b&gt;（如有）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
           <mxGeometry x="650" y="113.85999999999999" width="90" height="73.23" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-10" target="dfMtS8oU940L3tE6Py9R-12">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-10" target="dfMtS8oU940L3tE6Py9R-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-10" value="从随机池不放回抽取&lt;b&gt;仓检物品&lt;/b&gt;&lt;br&gt;（暂时不做）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-10" value="从随机池不放回抽取&lt;b&gt;仓检物品&lt;/b&gt;&lt;br&gt;（暂时不做）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
           <mxGeometry x="292.5" y="210" width="105" height="74.16" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-12" target="dfMtS8oU940L3tE6Py9R-21">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-12" target="dfMtS8oU940L3tE6Py9R-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="247" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-12" value="不放回随机&lt;br&gt;抽取物品直到已抽取数量满足到需求物品种类数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-12" value="不放回随机&lt;br&gt;抽取物品直到已抽取数量满足到需求物品种类数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
           <mxGeometry x="420" y="210" width="100" height="74.16" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-13" value="计算每个货箱交付奖励。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-13" value="计算每个货箱交付奖励。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
           <mxGeometry x="650" y="210" width="90" height="74.16" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-21" target="dfMtS8oU940L3tE6Py9R-13">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="kzFovidOQctGVJ-kFDqo-1" source="dfMtS8oU940L3tE6Py9R-21" target="dfMtS8oU940L3tE6Py9R-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfMtS8oU940L3tE6Py9R-21" value="&amp;nbsp; 不放回抽取备用货箱物品" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+        <mxCell id="dfMtS8oU940L3tE6Py9R-21" value="&amp;nbsp; 不放回抽取备用货箱物品" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kzFovidOQctGVJ-kFDqo-1" vertex="1">
           <mxGeometry x="540" y="210" width="90" height="74.16" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-0" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;等待阶段&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="340" y="420" width="121" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;交易阶段&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="610" y="420" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="480" y="390" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=-180;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="480" y="500" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-13" value="龙单刷新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="490" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-14" value="龙单发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="490" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;确定可选物品&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="140" y="690" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;不放回抽取可选物品，同时选择数量&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="284.5" y="690" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-17" value="根据抽选的物品及数量依次生成订单" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="430" y="690" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="kzFovidOQctGVJ-kFDqo-1" source="TfSPJDcX_jLh9LbOthSE-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-18" value="所有订单的&lt;br&gt;物品均已确认" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fontSize=12;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="570" y="675" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-19" value="结束" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="760" y="690" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TfSPJDcX_jLh9LbOthSE-21" value="龙单刷新" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=12;" vertex="1" parent="kzFovidOQctGVJ-kFDqo-1">
+          <mxGeometry x="10" y="690" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
